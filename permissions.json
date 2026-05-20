@@ -1,0 +1,67 @@
+{
+  "plugin": "Better MarkerMap",
+  "permissions": [
+    {
+      "node": "bettermarkermap.bypass.all",
+      "description": "Bypass all Better MarkerMap checks."
+    },
+    {
+      "node": "bettermarkermap.admin",
+      "description": "Admin access, including removing other players' markers."
+    },
+    {
+      "node": "bettermarkermap.create.personal",
+      "description": "Allow creating personal map markers."
+    },
+    {
+      "node": "bettermarkermap.create.shared",
+      "description": "Allow creating shared map markers."
+    },
+    {
+      "node": "bettermarkermap.remove.own",
+      "description": "Allow removing own markers only."
+    },
+    {
+      "node": "bettermarkermap.remove.any",
+      "description": "Legacy alias, prefer bettermarkermap.admin."
+    },
+    {
+      "node": "bettermarkermap.teleport.marker",
+      "description": "Allow teleporting to map markers."
+    },
+    {
+      "node": "bettermarkermap.marker.ui",
+      "description": "Allow opening /marker icon selector UI and setting global marker icon."
+    },
+    {
+      "node": "bettermarkermap.marker.use.any",
+      "description": "Allow using any marker image when image permission checks are enabled."
+    },
+    {
+      "node": "bettermarkermap.marker.use.<image_key>",
+      "description": "Allow using one specific marker image. image_key = file name without .png, lower-case, non [a-z0-9] replaced with _."
+    },
+    {
+      "node": "bettermarkermap.limit.unlimited",
+      "description": "Unlimited personal and shared marker limits."
+    },
+    {
+      "node": "bettermarkermap.limit.personal.unlimited",
+      "description": "Unlimited personal marker limit."
+    },
+    {
+      "node": "bettermarkermap.limit.shared.unlimited",
+      "description": "Unlimited shared marker limit."
+    },
+    {
+      "node": "bettermarkermap.limit.personal.<tier>",
+      "description": "Set personal marker limit tier.",
+      "tiers": [1, 3, 5, 8, 10, 12, 15, 20, 30, 40, 50, 75, 100, 150, 200]
+    },
+    {
+      "node": "bettermarkermap.limit.shared.<tier>",
+      "description": "Set shared marker limit tier.",
+      "tiers": [1, 3, 5, 8, 10, 12, 15, 20, 30, 40, 50, 75, 100, 150, 200]
+    }
+  ]
+}

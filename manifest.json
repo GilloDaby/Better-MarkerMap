@@ -1,7 +1,7 @@
 {
   "Group": "GilloDaby",
   "Name": "Better MarkerMap",
-  "Version": "1.0.0",
+  "Version":  "5.0.0",
   "Description": "Controls world map marker creation, deletion, teleport and limits via permissions.",
   "Authors": [
     {
